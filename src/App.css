@@ -1,0 +1,66 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.Nav {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  height: 70px;
+  padding: 20px;
+  padding-top: 20px;
+}
+h1 {
+  float: left;
+  color: black;
+}
+.btn {
+  float: right;
+  padding: 10px;
+  background-color: grey;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: rgb(44, 39, 39);
+}
+.row {
+  margin: 30px;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10 10px;
+  margin: 20px;
+}
+body{
+ background-image:url("https://tse1.mm.bing.net/th?id=OIP.LZ-22I7XjH2iRZmMP-8kDAHaEo&pid=Api&P=0&w=282&h=177");
+ background-size: cover;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card-img-top {
+  background-color: #9834eb;
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  border: 2px solid white;
+}
+.card-title {
+  font-family: 'Ubuntu', sans-serif;
+}
+.card-text {
+  color:black;
+  font-family: 'Ubuntu', sans-serif;
+}
